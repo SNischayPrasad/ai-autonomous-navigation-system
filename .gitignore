@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated run outputs (regenerate with `python main.py` / scripts/)
+outputs/
+
+# Large media - upload videos to GitHub Releases or the README editor instead
+*.mp4
+*.avi
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

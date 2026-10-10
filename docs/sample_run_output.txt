@@ -1,0 +1,53 @@
+﻿20:01:41 | INFO    | scenario=warehouse planner=astar start=(4.0, 25.0) goal=(74.0, 12.0)
+20:01:41 | INFO    | t=  0.1s  state:FOLLOWING
+20:01:44 | INFO    | t=  3.0s  replan:path_blocked
+20:01:44 | INFO    | t=  3.3s  replan:path_blocked
+20:01:44 | INFO    | t=  4.0s  replan:path_blocked
+20:01:45 | INFO    | t=  5.3s  replan:path_blocked
+20:01:46 | INFO    | t=  6.6s  replan:path_blocked
+20:01:46 | INFO    | t=  7.1s  replan:path_blocked
+20:01:48 | INFO    | t=  9.4s  replan:path_blocked
+20:01:48 | INFO    | t=  9.8s  replan:path_blocked
+20:01:48 | INFO    | t=  9.8s  state:PLANNING
+20:01:48 | INFO    | t=  9.9s  replan:retry
+20:01:48 | INFO    | t=  9.9s  state:FOLLOWING
+20:01:48 | INFO    | t= 10.4s  replan:path_blocked
+20:01:49 | INFO    | t= 10.8s  replan:path_blocked
+20:01:49 | INFO    | t= 10.9s  replan:path_blocked
+20:01:49 | INFO    | t= 10.9s  state:PLANNING
+20:01:49 | INFO    | t= 11.0s  replan:retry
+20:01:49 | INFO    | t= 11.0s  state:FOLLOWING
+20:01:49 | INFO    | t= 11.3s  replan:path_blocked
+20:01:50 | INFO    | t= 13.1s  replan:path_blocked
+20:01:51 | INFO    | t= 15.3s  replan:path_blocked
+20:01:52 | INFO    | t= 15.9s  replan:path_blocked
+20:01:52 | INFO    | t= 16.4s  replan:path_blocked
+20:01:52 | INFO    | t= 16.9s  replan:path_blocked
+20:01:53 | INFO    | t= 17.3s  replan:path_blocked
+20:01:53 | INFO    | t= 17.7s  replan:path_blocked
+20:01:56 | INFO    | t= 22.6s  replan:path_blocked
+20:01:56 | INFO    | t= 22.7s  replan:path_blocked
+20:01:59 | INFO    | t= 27.3s  replan:path_blocked
+20:02:02 | INFO    | t= 29.7s  replan:path_blocked
+20:02:03 | INFO    | t= 31.0s  replan:path_blocked
+20:02:03 | INFO    | t= 31.8s  replan:path_blocked
+20:02:04 | INFO    | t= 32.4s  replan:path_blocked
+20:02:04 | INFO    | t= 32.9s  replan:path_blocked
+20:02:04 | INFO    | t= 33.3s  replan:path_blocked
+20:02:22 | INFO    | t= 47.8s  state:GOAL_REACHED
+
+==============================================================
+ RESULT: SUCCESS  (warehouse, astar)
+==============================================================
+  Final state               GOAL_REACHED
+  Simulated time            49.3 s  (493 control steps)
+  Distance driven           110.9 m  (straight line 71.2 m)
+  Average speed             2.25 m/s
+  Collisions                0
+  Min clearance             1.14 m
+  Plans / obstacle replans  51 / 28
+  Avg plan time             20.17 ms  (2319 nodes)
+  Emergency stops           0
+  Map explored              64.8 %
+  Outputs                   C:\Users\Nischay\AI-1\AI-Autonomous-Navigation-System\outputs\warehouse
+==============================================================
